@@ -8,7 +8,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { CountInputComponent } from './count-input/count-input.component';
 
 @NgModule({
-  declarations: [AppComponent, QuoteDetailComponent, QuoteFormComponent, CountInputComponent],
+  declarations: [QuoteDetailComponent, QuoteFormComponent, CountInputComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

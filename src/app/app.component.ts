@@ -1,13 +1,30 @@
 import { Component } from '@angular/core';
-import { Goal } from './quote';
-....
+import { Quote } from './quote';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
 export class AppComponent {
-  goals:Goal[] = [
-    {id:1, name:'Watch finding Nemo'},
-    {id:2,name:'Buy Cookies'},
-    {id:3,name:'Get new Phone Case'},
-    {id:4,name:'Get Dog Food'},
-    {id:5,name:'Solve math homework'},
-    {id:6,name:'Plot my world domination plan'},
+  quotes: Quote[] = [
+    new Quote(
+      1,
+      'Dont look at the clock, do what it does keep moving',
+      'Biron Lovine',
+      new Date(2020, 4, 21)
+    ),
+    new Quote(
+      2,
+      'Difficulties in your life do not come to destroy you but to help you realize your potential and future',
+      'Rihannah',
+      new Date(2019, 5, 16)
+    ),
+    new Quote(
+      3,
+      'Success is a battle located in the brain only the fittest can survive',
+      'Lovine Biron',
+      new Date(2020, 1, 21)
+    ),
   ];
 }

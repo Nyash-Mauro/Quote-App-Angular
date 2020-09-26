@@ -23,7 +23,7 @@ export class QuoteComponent implements OnInit {
     new Quote(
       3,
       'Success is a battle located in the mind and only the fittest can survive',
-      'Lovine,
+      'Lovine Biron',
       new Date(2020, 1, 21)
     ),
     new Quote(
@@ -33,7 +33,7 @@ export class QuoteComponent implements OnInit {
       new Date(2020, 12, 3) */
   ];
 
-  toggleDetails(index) {
+  /*  toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
   deleteQuote(isComplete, index) {
@@ -82,5 +82,5 @@ export class QuoteComponent implements OnInit {
   }
   constructor() {}
 
-  ngOnInit() {}
+   */ ngOnInit() {}
 }
