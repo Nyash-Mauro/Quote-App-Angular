@@ -5,21 +5,18 @@
                 <h6> posted by {{quote.description}}</h6>
             </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
             <div class="card">
                 <h6> submitted by {{quote.author}} </h6>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <p>This quote was posted {{quote.postDate|dateCount}} .</p>
-                    <app-count-input></app-count-input>
-                </div>
+        <div class="col-md-4">
+            <div class="card">
+                <p>This quote was posted {{quote.postDate|dateCount}} .</p>
+                <app-count-input></app-count-input>
             </div>
         </div>
     </div>
-
-    <button (click)='quoteDelete(true)' class="red">Delete</button>
 </div>
+
+<button (click)='quoteDelete(true)' class="red">Delete</button>
