@@ -10,8 +10,8 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(
       1,
-      'Dont look at the clock, do what it does keep moving',
-      'Biron Lovine',
+      'Be persistent in life as it opens up opportunities',
+      'Patroni Andrea',
       new Date(2020, 4, 21)
     ),
     new Quote(

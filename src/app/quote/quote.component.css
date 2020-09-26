@@ -1,8 +1,8 @@
 .card {
-  box-shadow: 0 4px 8px 0 #45b1d5;
+  /* box-shadow: 2px 4px 8px 2px #45b1d5; */
   padding: 16px;
   text-align: center;
-  background-color: #45b1d5;
+  background-color: #eff7fa;
 }
 
 h1 {
