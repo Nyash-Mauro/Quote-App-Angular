@@ -1,8 +1,7 @@
 .card {
-  /* box-shadow: 2px 4px 8px 2px #45b1d5; */
   padding: 16px;
   text-align: center;
-  background-color: #eff7fa;
+  background-color: #f5f7f8;
 }
 
 h1 {
@@ -14,5 +13,11 @@ h1 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 20px;
+  text-align: left;
+}
+.view {
+  background-color: rgb(74, 141, 228);
+  border-radius: 25px;
+  color: red;
 }
