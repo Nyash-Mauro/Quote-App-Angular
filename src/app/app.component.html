@@ -1,9 +1,9 @@
 <div>
-  <h1>My Goals</h1>
+  <h1 class="text-center">Quotes App</h1>
   <hr>
   <ul>
-    <li *ngFor='let goal of goals'>
-      {{goal.name}}
+    <li *ngFor='let quote of quotes'>
+      {{quote.name}}
     </li>
   </ul>
   <p *ngIf='goals.length > 5'>Your Quotes are too many</p>
