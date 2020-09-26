@@ -1,12 +1,13 @@
 .card {
   padding: 16px;
   text-align: center;
-  background-color: #f5f7f8;
+  background-color: #f88f8f;
 }
 
 h1 {
   text-align: center;
   color: black;
+  text-decoration: solid;
   margin-bottom: 70px;
   text-transform: uppercase;
   font-size: 35px;
@@ -15,9 +16,21 @@ h1 {
 h3 {
   font-size: 20px;
   text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .view {
   background-color: rgb(74, 141, 228);
   border-radius: 25px;
-  color: red;
+  width: 120px;
+  height: 50px;
+  border-width: 8px solid red;
+  color: #081803;
+}
+.view:hover {
+  background-color: rgb(247, 171, 171);
+  color: #f5f7f8;
+  text-transform: uppercase;
+}
+.card {
+  background-color: #8a776e;
 }

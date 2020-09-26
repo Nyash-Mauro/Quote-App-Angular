@@ -1,3 +1,9 @@
-* {
-  background-color: black;
+.red {
+  padding-left: 5px;
+  background-color: white;
+  border-radius: 25px;
+  width: 80px;
+}
+.red:hover {
+  background-color: red;
 }

@@ -2,13 +2,11 @@
     <div class="container-fluid">
 
         <div class="landing">
-            <h1 style="padding-top: 100px;">Quotes Maker</h1>
+            <h1>Quotes Maker</h1>
         </div>
 
         <div class="row">
-
             <div class="col md-6">
-
                 <div *ngFor='let quote of quotes ;let i = index'>
                     <div class="card">
                         <h3 appHighlight> {{quote.name}} </h3>
@@ -16,20 +14,17 @@
                             <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'
                                 (isComx`plete)='deleteQuote($event,i)'>
                             </app-quote-detail>
-
-
-
                         </div>
                     </div>
+                    <br>
                     <button (click)='toggleDetails(i)' class="view">View More</button>
                 </div>
             </div>
-            <div class="col-md 6">
+            <div class="col-md 12">
                 <div class="card">
                     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
                 </div>
             </div>
         </div>
-
     </div>
 </body>
