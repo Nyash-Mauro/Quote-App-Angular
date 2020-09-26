@@ -19,18 +19,21 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .view {
-  background-color: rgb(74, 141, 228);
-  border-radius: 25px;
-  width: 120px;
-  height: 50px;
-  border-width: 8px solid red;
-  color: #081803;
+  padding: 10px 25px;
+  background-color: none;
+  border: 3px solid #3b86db;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 15px;
 }
 .view:hover {
-  background-color: rgb(247, 171, 171);
+  background-color: #82b5f0;
   color: #f5f7f8;
-  text-transform: uppercase;
 }
-.card {
-  background-color: #8a776e;
+.landing {
+  background-color: #f88f8f;
+  font-weight: bolder;
 }

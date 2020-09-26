@@ -1,11 +1,19 @@
 .quote {
-  background-color: rgb(240, 107, 30);
-  border-radius: 25px;
-  width: 120px;
-  height: 50px;
-  border-width: 8px solid red;
-  color: #081803;
+  padding: 10px 25px;
+  background-color: none;
+  border: 3px solid #f88f8f;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 15px;
 }
 .quote:hover {
-  background-color: rgb(24, 153, 240);
+  background-color: #f88f8f;
+}
+#complete,
+input[date] {
+  color: black;
+  padding-left: 1px;
 }
