@@ -8,9 +8,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(),
+    new Quote(
+      1,
       'Dont look at the clock, do what it does keep moving',
-      'lukes',
+      'Biron Lovine',
       new Date(2020, 4, 21)
     ),
     new Quote(
@@ -30,9 +31,10 @@ export class QuoteComponent implements OnInit {
       'There is nothing that is good that comes easy',
       'Calvo',
       new Date(2020, 12, 3)
+    ),
   ];
 
-   toggleDetails(index) {
+  toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
   deleteQuote(isComplete, index) {
@@ -81,5 +83,5 @@ export class QuoteComponent implements OnInit {
   }
   constructor() {}
 
-   ngOnInit() {}
+  ngOnInit() {}
 }
