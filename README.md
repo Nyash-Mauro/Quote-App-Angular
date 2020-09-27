@@ -1,3 +1,7 @@
+# Author
+
+Maurice Emmanuel Nyanja **{{Icons}}**
+
 # QuoteApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
@@ -9,6 +13,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Design
+
+https://www.figma.com/file/6uh9vho8qRCTpX2SVst7ko/Untitled?node-id=4%3A1
+
+## Known Bugs
+
+the delete button doesn't work
 
 ## Build
 

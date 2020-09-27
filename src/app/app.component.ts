@@ -11,7 +11,7 @@ export class AppComponent {
     new Quote(
       1,
       'Dont look at the clock, do what it does keep moving',
-      'Biron Lovine',
+      'Crazy One',
       new Date(2023, 4, 12)
     ),
     new Quote(
@@ -23,7 +23,7 @@ export class AppComponent {
     new Quote(
       3,
       'Success is a battle located in the brain only the fittest can survive',
-      'Lovine Biron',
+      'iron lady',
       new Date(1550, 1, 21)
     ),
   ];

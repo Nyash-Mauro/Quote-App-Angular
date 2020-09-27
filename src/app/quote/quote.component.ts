@@ -17,13 +17,13 @@ export class QuoteComponent implements OnInit {
     new Quote(
       2,
       'Difficulties in your life do not come to destroy you but to help you realize your potential and future',
-      'LucycWigwa',
+      'Iroh Lady',
       new Date(2019, 5, 16)
     ),
     new Quote(
       3,
       'Success is a battle located in the mind and only the fittest can survive',
-      'Lovine Biron',
+      'Louis Karoni',
       new Date(2020, 1, 21)
     ),
     new Quote(
